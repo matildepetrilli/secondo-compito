@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        description="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <link rel="stylesheet" href="stile.css"> <!--collegamento css-->
+
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="logo.svg" alt="logo della pagina" />
+            <figcaption>Epicode - Il blog dei developers</figcaption>
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0)">Home</a></li>
+                    <li><a href="javascript:void(0)"> Articoli </a></li>
+                    <li><a href="javascript:void(0)"> Lavora con noi</a></li>
+                </ul>
+            </nav>
+        </figure>
+    </header>
+    <hr />
+    <main>
+        <section>
+            <action>
+                <h2>Come creare un template per i post</h2>
+                <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <b>parti comuni</b>
+                    da
+                    applicare a tutte le pagine</p>
+            </action>
+            <action>
+                <p>Le varie aree saranno quindi suddivise in:</p>
+                <ul>
+                    <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+                    <li> Contenuti centrali variabili del tag<code>&lt;main&gt;(corpo principale)</code></li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag<code>&lt;footer&gt;</code></li>
+                </ul>
+            </action>
+            <action>
+                <h2>Formattazione del codice</h2>
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
+                    CSS. Perciò i passi saranno: </p>
+                <ol>
+                    <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li> Applicare gli stili CSS</li>
+                </ol>
+                <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+                </p>
+            </action>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Anno</th>
+                        <th>% di utilizzo </th>
+                        <th>Supporto browsers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <action>
+                <p>Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/">
+                        tool online </a> dedicato allo scopo.
+                    Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
+                    developers come loro:</p>
+            </action>
+            <action>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wF_-uTHi0Rc?si=6u5rAx_mBlEco-Zw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </action>
+        </section>
+        <section>
+            <action>
+                <h2>Novità</h2>
+                <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+                <form>
+                    <label for="mail"> inserisci email </label>
+                    <imput type="mail" id="mail" name="mail"/>
+                    <button type="submit"> iscriviti! </button>
+                </form>
+            </action>
+        </section>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
